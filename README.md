@@ -54,7 +54,7 @@ demo = gr.Interface(fn=ner,
                     title="NER with dslim/bert-base-NER",
                     description="Find entities using the `dslim/bert-base-NER` model under the hood!",
                     allow_flagging="never",
-                    examples=["My name is Meetha, I live in Chennai and work at Google.","Elon Musk founded SpaceX in 2002.","Vijay B completed his project at Anna University in 2025.","Barack Obama was born in Hawaii."])
+                    examples=["My name is Meetha, I live in Chennai and work at Google.","Elon Musk founded SpaceX in 2002.","Meetha Prabhu completed his project at Anna University in 2025.","Barack Obama was born in Hawaii."])
 
 demo.launch(share=True, server_port=int(os.environ['PORT4']))
 ```
